@@ -1,0 +1,98 @@
+*{
+	font-family: sans-serif;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.cadastro
+{
+	background-color: #0E3126;
+	display: inline-block;
+	widows: 100%;
+	position: relative;
+	border-radius: 10px;
+}
+
+.tabelas
+{
+	background-color: rgb(144,238,144,.2);
+	box-shadow: 0 5px 15px rgb(0,0,0,.5);
+	display: inline-block;
+	widows: 100%;
+	position: relative;
+	border-radius: 10px;
+}
+
+.cadInput
+{
+	width:400px;
+	height: 42px;
+	margin-right: 20px;
+	margin-left: 20px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.cadInputime
+{
+	width:200px;
+	height: 42px;
+	margin-right: 20px;
+	margin-left: 20px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.cabeca
+{
+	width:100%;
+	text-align: center;
+	margin-top: 10;
+}
+
+.cabeca2
+{
+	width:100%;
+	justify-content: left;
+}
+
+.box2
+{
+	display: inline-block;
+}
+
+.box
+{
+	display: inline-block;
+	 margin: 90px;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(107.56deg, #00FF85, #1A9569, #06462C);
+	background-size: 300% 300%; 
+	animation: colors 15s ease infinite;
+	position: relative;
+}
+
+h1, h2
+{
+	color: #fff;
+}
+
+@keyframes colors{
+	0%{
+		background-position: 0% 50%;
+	}
+
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+}
